@@ -17,7 +17,7 @@
       let elapsed = 0.0;
       app.ticker.add((delta) => {
         elapsed += delta;
-        sprite.x = 320 + Math.cos(elapsed) * 320;
+        sprite.x = 320 + Math.cos(elapsed/3) * 320;
       });
     </script>
   </body>
