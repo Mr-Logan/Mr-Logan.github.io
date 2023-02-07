@@ -16,8 +16,8 @@
       // Add a ticker callback to move the sprite back and forth
       let elapsed = 0.0;
       app.ticker.add((delta) => {
-        elapsed += delta*2;
-        sprite.x = 100.0 + Math.cos(elapsed) * 100.0;
+        elapsed += delta;
+        sprite.x = 320 + Math.cos(elapsed) * 320;
       });
     </script>
   </body>
